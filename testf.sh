@@ -1,6 +1,6 @@
 echo "update the file"
 read fname
-nano $file.sh
+vi $file.sh
 echo "move working area to staging area"
 git add *
 echo "commit the $file"
