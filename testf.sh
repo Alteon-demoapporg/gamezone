@@ -8,7 +8,9 @@ echo "give commit message"
 read mesg
 git commit -m "$mesg"
 echo "push to remote repo"
+echo "Give alias name"
 read aliasname
+echo "give branchname"
 read branchname
 git push $aliasname $branchname
 
